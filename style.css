@@ -8,6 +8,9 @@ html {
     font-size: 62.5%;
 }
 
+p{
+    font-size: 1.6rem;
+}
 
 h1{
     font-size: 5.5rem;
@@ -100,7 +103,7 @@ header .blogPage {
     text-decoration: none;
     text-transform: uppercase;
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -114,7 +117,7 @@ header .blogPage {
     border-radius: 5px;
 
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     text-transform: uppercase;
 
@@ -140,13 +143,13 @@ header .blogPage {
 .intro .subMainTitle{
     color: #4c57aa;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .intro a{
     padding: 20px 30px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     border-radius: 5px;
     text-decoration: none;
@@ -184,7 +187,7 @@ aside{
 }
 
 .asideSubTitle{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
   
 }
@@ -205,18 +208,18 @@ aside{
     border: none;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .domainInput input::-moz-placeholder{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #000000;
 
 }
 
 .domainInput .submitButton{
-    font-size: 18px;
+    font-size: 1.8rem;
     text-transform: uppercase;
     text-decoration: none;
     color: #edebeb;
@@ -243,7 +246,7 @@ aside{
 }
 
 .sectionTitleContainer{
-    font-size: 16px;
+    font-size: 1.6rem;
     width: 50%;
     margin: 0 auto 80px;
 }
@@ -288,21 +291,21 @@ aside{
 }
 
 .bestHosting{
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .hostingContent .title{
     color: #2d2d43;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     margin: 20px 0 35px 0;
 }
 
 .hostingContent .content{
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 32px;
 }
@@ -407,7 +410,7 @@ aside{
     position: absolute;
     top: 155px;
     left: -7px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     color: #ffffff;
     padding: 20px 0;
@@ -454,7 +457,7 @@ aside{
 
 .cardContent{
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 40px;
  
@@ -483,9 +486,10 @@ button{
     margin: 45px 0;
 
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 
@@ -541,25 +545,25 @@ button{
 }
 
 .blogCardContent .title{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     color: #2d2d43;
 }
 
 .blogCardContent .date{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .readMore{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     text-decoration: none;
 }
 
 .readMore .fa-long-arrow-alt-right{
-    font-size: 20px;
+    font-size: 2rem;
     padding-top: 5px;
 
 }
@@ -602,19 +606,19 @@ button{
 .footerContainer .content{
     color: #000000;
     line-height: 32px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .footerTitle{
     color: #2d2d43;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     margin-top: 60px;
 }
 
 .socialContainer div{
     display: inline-block;
-    font-size: 20px;
+    font-size: 2rem;
     width: 35px;
     height: 35px;
     position: relative;
@@ -636,7 +640,7 @@ button{
 
 .phoneNumber{
     color: #4c57aa;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 55px;
 }
@@ -666,7 +670,7 @@ button{
 
 .footerSectionTitle{
     color: #2d2d43;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     margin: 0 0 50px 0;
 }
@@ -679,7 +683,7 @@ button{
 
 .footerLink li{
     color: #4c57aa;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     line-height: 36px;
 }
@@ -687,7 +691,7 @@ button{
 .footerLink li::before {
    font-family: 'FontAwesome';
    content: '\f101';
-   font-size: 16px;
+   font-size: 1.6rem;
    font-weight: 500;
    margin-right: 20px;
 }
@@ -712,14 +716,14 @@ button{
 
 .newsContent .title{
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
     margin: 0;
 }
 
 .newsContent .date{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -727,17 +731,21 @@ button{
     width: 100%;
 }
 
+input[type=submit]{
+    cursor: pointer;
+}
+
 .footerForm input[type=submit]{
     background: #07c5a1;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     border: none;
     width: 100%;
 }
 
 .footerForm input::-moz-placeholder, .footerForm textarea::-moz-placeholder{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #000000;
 
@@ -774,7 +782,7 @@ button{
     display: block;
     font-family: 'Roboto', sans-serif;
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     text-decoration: none;
     padding: 0 20px;
@@ -782,7 +790,7 @@ button{
 
 .copyRight{
     color: #2d2d43;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -829,12 +837,12 @@ footer hr{
 
 .blogTitleContent .subTitle{
     color: #2d2d43;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .blogTitleContent .subTitle span{
     color: #4c57aa;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -864,7 +872,7 @@ footer hr{
 
 .blogDate{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -877,7 +885,7 @@ footer hr{
 
 .blogContent{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 32px;
 }
@@ -893,7 +901,7 @@ footer hr{
     background: #f4fafe;
     color: #4c57aa;
 
-    font-size: 16px;
+    font-size: 1.6rem;
     position: relative;
     margin-right: 10px;
 }
@@ -919,7 +927,7 @@ footer hr{
 .postTitle{
     margin: 0;
     color: #2d2d43;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 36px;
 }
@@ -945,7 +953,7 @@ footer hr{
 
 .sidebarCategories p{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     margin: 0;
     float: left;
@@ -953,7 +961,7 @@ footer hr{
 
 .sidebarCategories .fa-folder{
     float: right;
-    font-size: 21px;
+    font-size: 2.1rem;
     padding-right: 5px;
 
 }
@@ -974,7 +982,7 @@ footer hr{
 .blogSidebarContainer .newsFeed .date{
     margin: 0;
     padding-top: 35px;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .blogSidebarContainer .newsFeed .fa-calendar{
@@ -995,7 +1003,7 @@ footer hr{
 
 .tags a{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     text-decoration: none;
     padding: 15px 25px;
@@ -1037,7 +1045,7 @@ footer hr{
 }
 
 .blogPostTagTitle{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     color: rgba(0, 0, 1, 0.65);
     margin: 34px 0 34px 0;
@@ -1045,7 +1053,7 @@ footer hr{
 
 .blogPostTagTitle span{
     color: #2d2d43;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 .blogPostTagSocial{
@@ -1057,7 +1065,7 @@ footer hr{
 .blogPostTagSocial p{
     display: inline-block;
     color: #2d2d43;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     margin: 0;
 
@@ -1065,13 +1073,13 @@ footer hr{
 
 #shareIcon{
     color: #c5c4c4;
-    font-size: 20px;
+    font-size: 2rem;
 
 }
 
 .blogPostTagSocial div{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     width: 40px;
     height: 40px;
 
@@ -1128,7 +1136,7 @@ footer hr{
     position: absolute;
     top: -13px;
     left: 25px;
-    font-size: 14px;
+    font-size: 1.4rem;
 
     width: 25px;
     height: 25px;
@@ -1156,21 +1164,21 @@ footer hr{
 
 .adminName{
     color: #2d2d43;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
     margin: 0;
 }
 
 .adminTitle{
     color: #4c57aa;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
     margin: 10px 0 0 0;
 }
 
 .adminContent{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 
     margin: 30px 0 0 0;
@@ -1190,7 +1198,7 @@ footer hr{
 .commentContainer input::-moz-placeholder, 
 .commentContainer textarea::-moz-placeholder{
     color: #000000;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -1199,7 +1207,7 @@ footer hr{
     background: #4c57aa;
     border-radius: 5px;
 
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
