@@ -8,9 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-p{
-    font-size: 1.6rem;
-}
 
 h1{
     font-size: 5.5rem;
@@ -105,6 +102,8 @@ header .blogPage {
     color: #2d2d43;
     font-size: 1.6rem;
     font-weight: 500;
+
+    padding: 20px;
 }
 
 .quoteButton{
@@ -186,6 +185,10 @@ aside{
 
 }
 
+.asideTitle h3{
+    margin: 0;
+}
+
 .asideSubTitle{
     font-size: 2rem;
     font-weight: 400;
@@ -200,6 +203,7 @@ aside{
 
 .domainInput{
     font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
 }
 
 .domainInput input[type=text]{
@@ -352,6 +356,9 @@ aside{
     width: 800px;
 }
 
+.cardsContainer{
+    margin-top: 80px;
+}
 
 .card:nth-child(2){
   
@@ -372,14 +379,13 @@ aside{
 
 .price{
     color: #2d2d43;
-    font-size: 64px;
     font-weight: 300;
     padding: 45px 0 140px;
-
-
+    
 }
 
 .price p{
+    font-size: 64px;
     margin: 0;
     position: relative;
     display: inline;
@@ -763,6 +769,9 @@ input[type=submit]{
 
 .copyRightContainer{
     display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    white-space: nowrap;
 }
 
 .footerNav{
@@ -770,7 +779,9 @@ input[type=submit]{
     float: right;
 }
 
-
+.footerNav ul{
+    margin: 0;
+}
 
 .footerNav li{
     display: inline-block;
@@ -786,12 +797,20 @@ input[type=submit]{
     font-weight: 400;
     text-decoration: none;
     padding: 0 20px;
+    height: 90px;
+    line-height: 90px;
+    white-space: nowrap;
+
 }
 
 .copyRight{
     color: #2d2d43;
     font-size: 1.6rem;
     font-weight: 400;
+}
+
+.copyRight p{
+    margin: 0;
 }
 
 .copyRight span{
