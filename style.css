@@ -8,6 +8,19 @@ html {
     font-size: 62.5%;
 }
 
+
+h1{
+    font-size: 5.5rem;
+}
+
+h2{
+    font-size: 4.5rem;
+}
+
+h3{
+    font-size: 4rem;
+}
+
 body {
 
     font-size: 1rem;
@@ -119,7 +132,7 @@ header .blogPage {
 }
 
 .intro .mainTitle{
-    font-size: 55px;
+    line-height: 83px;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -165,7 +178,7 @@ aside{
 }
 
 .asideTitle{
-    font-size: 40px;
+
     font-weight: 600;
 
 }
@@ -232,7 +245,7 @@ aside{
 .sectionTitleContainer{
     font-size: 16px;
     width: 50%;
-    margin: 150px 0;
+    margin: 0 auto 80px;
 }
 
 .sectionTitleContainer .subTitle{
@@ -327,18 +340,15 @@ aside{
 
 .priceSectionContainer{
     background: #f3fafd;
+    padding: 160px 0 190px 0;
 }
 
 .priceSectionContainer .sectionTitleContainer{
     text-align: center;
     margin: 0 auto;
-    padding: 160px 0 80px 0;
     width: 800px;
 }
 
-.cardsContainer{
-    padding-bottom: 180px;
-}
 
 .card:nth-child(2){
   
@@ -515,12 +525,13 @@ button{
 
 .blogCardsContainer{
     background: #f3fafd;
-    padding: 150px 0 144px 0;
+    padding: 150px 0;
+
 }
 
 .blogCardsContainer .sectionTitleContainer{
     text-align: center;
-    margin: 0 auto;
+
     width: 620px;
 }
 
@@ -813,7 +824,6 @@ footer hr{
 
 .blogTitleContent .title{
     color: #2d2d43;
-    font-size: 45px;
     font-weight: 600;
 }
 
@@ -939,7 +949,6 @@ footer hr{
     font-weight: 400;
     margin: 0;
     float: left;
-
 }
 
 .sidebarCategories .fa-folder{
