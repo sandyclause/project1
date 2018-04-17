@@ -48,18 +48,12 @@ img{
 
 /* Header */
 header nav{
-    height: 123px;
     box-shadow: 0px 5px 22.32px 1.68px rgba(76, 87, 170, 0.06);
-
+    padding: 40px 0;
 }
 
 header .blogPage {
     box-shadow: none;
-}
-
-
-.topNav{
-    padding-top: 42px;
 }
 
 .navImg, .navLinks{
@@ -790,6 +784,14 @@ button{
 
 .footerForm input[type=text], .footerFrom textarea{
     width: 100%;
+}
+
+textarea{
+    font-size: 1.6rem;
+}
+
+input{
+    font-size: 1.6rem;
 }
 
 input[type=submit]{
