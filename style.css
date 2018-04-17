@@ -103,7 +103,15 @@ header .blogPage {
     font-size: 1.6rem;
     font-weight: 500;
 
-    padding: 20px;
+    padding: 15px 20px;
+}
+
+.navLinks a:hover{
+    color: white;
+    background: #4c57aa;
+    border-radius: 5px;
+
+    transition: 0.4s all;
 }
 
 .quoteButton{
@@ -239,9 +247,8 @@ aside{
 
 
 /* services section */
-
-.servicesContainer{
-    margin: 150px 0;
+#services{
+    padding: 150px 0;
 }
 
 .servicesContainer .sectionTitleContainer{
@@ -581,7 +588,15 @@ button{
     color: #000000;
     font-size: 1.6rem;
     font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
     text-decoration: none;
+    transition: 1s all;
+}
+
+.readMore:hover{
+    color: white !important;
+    background: #6d7efa;
 }
 
 .readMore .fa-long-arrow-alt-right{
@@ -652,7 +667,10 @@ button{
 }
 
 .socialContainer div:hover{
-    border: 1px solid #4c57aa;
+    border: 2px solid #4c57aa;
+    cursor: pointer;
+
+    transition: 0.5s all;
 }
 
 .socialContainer div svg{
@@ -669,9 +687,7 @@ button{
     margin-top: 55px;
 }
 
-.footerAbout, .footerLink, .newsFeed, .footerForm{
-    float: left;
-}
+
 
 .footerAbout{
     width: 22%;
@@ -688,8 +704,13 @@ button{
     margin: 0 50px 0 0;
 }
 
+
 .footerForm{
     width: 22%;
+}
+
+.footerAbout, .footerLink, .newsFeed, .footerForm{
+    float: left;
 }
 
 .footerSectionTitle{
@@ -723,11 +744,17 @@ button{
 .footerLink a{
     text-decoration: none;
     color: #595959;
+    padding: 5px 0;
+    
 }
 
 .footerLink a:hover{
     color: #4c57aa;
     font-weight: 600;
+    
+    margin-left: 5px;
+    transition: 0.5s all;
+
 }
 
 
@@ -885,6 +912,7 @@ footer hr{
 .blogTitleContent .subTitle{
     color: #2d2d43;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .blogTitleContent .subTitle span{
@@ -935,7 +963,10 @@ footer hr{
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 35px;
 }
+
+
 
 .blog .readMore{
     color: #4c57aa;
@@ -947,6 +978,7 @@ footer hr{
     height: 40px;
     background: #f4fafe;
     color: #4c57aa;
+    border-radius: 5px;
 
     font-size: 1.6rem;
     position: relative;
@@ -955,6 +987,7 @@ footer hr{
 
 .pageButton:hover{
     background: #4c57aa;
+    transition: 1s all;
 }
 
 .pageButton a{
@@ -1016,6 +1049,8 @@ footer hr{
 .blogSidebarContainer .newsFeed{
     width: 100%;
     margin: 60px 0;
+
+    float: none;
 }
 
 .blogSidebarContainer .newsImg{
@@ -1054,7 +1089,7 @@ footer hr{
     font-weight: 400;
     text-decoration: none;
     padding: 15px 25px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     border: 1px solid rgba(0, 0, 0, 0.2);
 
     display: inline-block;
@@ -1063,7 +1098,10 @@ footer hr{
 .tags a:hover{
     color: #ffffff;
     font-weight: 500;
+    padding: 15px 24px;
     background: #4c57aa;
+
+    transition: 0.4s all;
 }
 
 
@@ -1146,6 +1184,9 @@ footer hr{
     background: #4c57aa;
     border: 1px solid #444fa9;
     color: #ffffff;
+    cursor: pointer;
+
+    transition: 0.4s all;
 }
 
 .blogPostTagSocial svg, .blogPostTagSocial p{
@@ -1258,3 +1299,10 @@ footer hr{
     font-weight: 500;
 }
 
+
+
+.commentTitle{
+    color: #2d2d43;
+    font-size: 2rem;
+    font-weight: 600;
+}
