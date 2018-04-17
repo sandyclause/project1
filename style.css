@@ -118,8 +118,7 @@ header .blogPage {
     color: #ffffff;
     font-size: 1.6rem;
     font-weight: 600;
-    text-transform: uppercase;
-
+    text-transform: none;
 }
 
 /*intro section*/
@@ -247,12 +246,17 @@ aside{
 
 .servicesContainer .sectionTitleContainer{
     text-align: left;
+    width: 100%;
+}
+
+.servicesContainer .sectionTitleContainer .title{
+    width: 530px;    
 }
 
 .sectionTitleContainer{
     font-size: 1.6rem;
     width: 50%;
-    margin: 0 auto 80px;
+    margin: 0 auto 170px;
 }
 
 .sectionTitleContainer .subTitle{
@@ -266,6 +270,7 @@ aside{
     color: #2d2d43;
     font-size: 40px;
     font-weight: 600;
+    margin: 21px 0 26px;
 }
 
 .sectionTitleContainer
@@ -298,6 +303,7 @@ aside{
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: #000000;
 }
 
 .hostingContent .title{
@@ -526,6 +532,16 @@ button{
     margin-top: 30px;
 }
 
+.ceoName{
+    font-size: 2.4rem;
+    margin: 28px 0 13px;
+}
+
+.ceoTitle{
+    margin: 0;
+}
+
+
 
 
 
@@ -541,8 +557,8 @@ button{
 
 .blogCardsContainer .sectionTitleContainer{
     text-align: center;
-
     width: 620px;
+    margin-bottom: 80px;
 }
 
 .blogCardContent{
@@ -583,6 +599,8 @@ button{
 .domainInput .fa-paper-plane{
     font-size: 30px;
     margin: 0 20px;
+    position: relative;
+    top: 5px;
 }
 
 .newsletterContainer{
@@ -688,9 +706,9 @@ button{
 }
 
 .footerLink li{
-    color: #4c57aa;
+
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 36px;
 }
 
@@ -700,6 +718,16 @@ button{
    font-size: 1.6rem;
    font-weight: 500;
    margin-right: 20px;
+}
+
+.footerLink a{
+    text-decoration: none;
+    color: #595959;
+}
+
+.footerLink a:hover{
+    color: #4c57aa;
+    font-weight: 600;
 }
 
 
