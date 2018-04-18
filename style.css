@@ -236,7 +236,7 @@ aside{
 }
 
 #services{
-    background-image: url("/images/home-background-1.png"), url("/images/home-background-2.png");
+    background-image: url("images/home-background-1.png"), url("images/home-background-2.png");
     background-repeat: no-repeat;
     background-position: 100% 200px, 0 1030px;
 }
@@ -321,7 +321,6 @@ aside{
     width: 20%;
     height: 200px;
     float: left;
-
 }
 
 #services{
@@ -347,7 +346,6 @@ aside{
 }
 
 .card:nth-child(2){
-  
     margin: 0 30px;;
 }
 
@@ -499,7 +497,6 @@ button{
 .ceoContainer .sectionTitleContainer{
     float: left;
     margin: 0 0 0 60px;
-
 }
 
 .signature{
@@ -527,7 +524,6 @@ button{
 .blogCardsContainer{
     background: #f3fafd;
     padding: 150px 0;
-
 }
 
 .blogCardsContainer .sectionTitleContainer{
@@ -570,7 +566,6 @@ button{
 .readMore .fa-long-arrow-alt-right{
     font-size: 2rem;
     padding-top: 5px;
-
 }
 
 
@@ -695,7 +690,6 @@ button{
 }
 
 .footerLink li{
-
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 36px;
@@ -713,7 +707,6 @@ button{
     text-decoration: none;
     color: #595959;
     padding: 5px 0;
-    
 }
 
 .footerLink a:hover{
@@ -722,7 +715,6 @@ button{
     
     margin-left: 5px;
     transition: 0.5s all;
-
 }
 
 .footerLink li:hover:before{
@@ -738,7 +730,6 @@ button{
 
 .newsImg{
     width: 64px;
-
     float: left;
 }
 
@@ -823,36 +814,6 @@ footer .navLinks a{
     text-transform: none;
     font-weight: 400;
 }
-
-
-/* .footerNav{
-    display: inline-block;
-    float: right;
-}
-
-.footerNav ul{
-    margin: 0;
-}
-
-.footerNav li{
-    display: inline-block;
-    list-style: none;
-   
-}
-
-.footerNav li a{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    color: #2d2d43;
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 0 20px;
-    height: 90px;
-    line-height: 90px;
-    white-space: nowrap;
-
-} */
 
 .copyRight{
     color: #2d2d43;
@@ -951,7 +912,6 @@ footer hr{
     color: #2d2d43;
     font-size: 30px;
     font-weight: 600;
-    
 }
 
 .blogContent{
@@ -993,7 +953,6 @@ footer hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .pageButton:hover a{
@@ -1015,7 +974,6 @@ footer hr{
 .blogSidebarContainer{
     width: 36%;
     padding-left: 40px;
-
 }
 
 .sidebarCategories{
@@ -1039,7 +997,6 @@ footer hr{
     float: right;
     font-size: 2.1rem;
     padding-right: 5px;
-
 }
 
 .blogSidebarContainer .newsFeed{
@@ -1112,8 +1069,7 @@ footer hr{
 /* blog post page */
 
 .blogAuthor{
-    color: #4c57aa;
-    
+    color: #4c57aa;   
 }
 
 .blogPostTagContainer{
@@ -1149,13 +1105,11 @@ footer hr{
     font-size: 1.8rem;
     font-weight: 500;
     margin: 0;
-
 }
 
 #shareIcon{
     color: #c5c4c4;
     font-size: 2rem;
-
 }
 
 .blogPostTagSocial div{
@@ -1164,10 +1118,8 @@ footer hr{
     width: 40px;
     height: 40px;
 
-
     display: inline-block;
-    position: relative;
-    
+    position: relative;   
 }
 
 .blogPostTagSocial .social{
@@ -1203,8 +1155,7 @@ footer hr{
     margin: 100px 0 65px 0;
 }
 
-.adminImgContainer{
-    
+.adminImgContainer{  
     float: left;
     position: relative;
 }
