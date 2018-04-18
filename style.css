@@ -235,6 +235,12 @@ aside{
     padding: 150px 0;
 }
 
+#services{
+    background-image: url("/images/home-background-1.png"), url("/images/home-background-2.png");
+    background-repeat: no-repeat;
+    background-position: 100% 200px, 0 1030px;
+}
+
 .servicesContainer .sectionTitleContainer{
     text-align: left;
     width: 100%;
@@ -321,23 +327,6 @@ aside{
 #services{
     position: relative;
 }
-
-.cloud1{
-    width: 570px;
-    position: absolute;
-    top: 48px;
-    right: -260px;
-}
-
-.cloud2{
-    width: 350px;
-    position: absolute;
-    left: -250px;
-    bottom: 250px;
-}
-
-
-
 
 
 /* pricing section */
@@ -734,6 +723,11 @@ button{
     margin-left: 5px;
     transition: 0.5s all;
 
+}
+
+.footerLink li:hover:before{
+    color: #4c57aa;
+    font-weight: 600;
 }
 
 
